@@ -1,6 +1,9 @@
 {
     "name": "Python Project",
     "dockerFile": "Dockerfile",
+    "features": {
+        "ghcr.io/devcontainers/features/sshd:1": {}
+    },
     "appPort": 8080,
     "customizations": {
         "vscode": {
